@@ -1,8 +1,4 @@
 'use strict';
-// cmd `live-server` => opens nodejs live server
-//querySelector() wybiera nam daną klasę/id CSS
-//a .textContent zwraca nam wartosc tekstową wpisaną w html klasie
-//.value zwraca nam wartość wpisaną w input
 let score = 20
 let highScore = 0 
 document.querySelector('.score').textContent = score;
